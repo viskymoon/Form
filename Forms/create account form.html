@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create an Account</title>
+</head>
+<body bgcolor="DarkSeaGreen">
+    <h1 align="center">Create an Account</h1>
+    <hr/>
+
+    <form action="thankyou.html">
+        <table background="bg.png" align="center" cellpadding="10">
+            <tr>
+                <td align="Center" colspan="2">
+                    <img width="120" src="avatars.png">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h2>First Name</h2>
+                </td>
+                <td>
+                    <input type="text" maxlenght="20" required>                       
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h2>Last Name</h2>
+                </td>
+                <td>
+                    <input type="text" maxlenght="20" required>                            
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h2>Location</h2>
+                </td>
+                <td>
+                    <select>
+                        <optgroup label="Moldova">
+                            <option>Chisinau</option>
+                            <option>Balti</option>
+                            <option>Cahul</option>
+                        </optgroup>
+
+                        <optgroup label="Romania">
+                            <option>Bucharest</option>
+                            <option>Timisoara</option>
+                            <option>Iasi</option>
+                        </optgroup>
+
+                        <optgroup label="Ukraine">
+                            <option>Kiev</option>
+                            <option>Odessa</option>
+                            <option>Lvov</option>
+                        </optgroup>
+                    </select>
+                                                
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h2>DOB</h2>
+                </td>
+
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <h2>Short Bio</h2>
+                    <textarea cols="40" rows="10"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="checkbox" id="checkbox" required><label for="checkbox">I agree with the <a href="terms.html" target="_blamk">terms and rules!</a></label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button>GO FOR IT!</button>
+                    
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>
